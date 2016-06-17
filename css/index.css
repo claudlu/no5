@@ -1,0 +1,413 @@
+#banner {
+  width: 100%;
+  height: 634px;
+  background: url(../img/index/bg_01.jpg) center no-repeat;
+}
+#banner .banner-info {
+  width: 1100px;
+  margin: 0 auto;
+  height: 634px;
+  position: relative;
+}
+#banner .banner-info ul {
+  width: 609px;
+  height: 179px;
+  position: absolute;
+  z-index: 10;
+  left: 236px;
+  bottom: 19px;
+}
+#banner .banner-info ul li {
+  float: left;
+  margin: 0 14px;
+}
+#banner .banner-info ul li a {
+  display: block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 175px;
+  height: 175px;
+}
+#brand div {
+  text-align: center;
+}
+#brand div:nth-child(1) {
+  height: 99px;
+  background: url(../img/index/bg_02.jpg) center no-repeat;
+}
+#brand div:nth-child(1) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(1) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(2) {
+  height: 741px;
+  background: url(../img/index/bg_03.jpg) center no-repeat;
+}
+#brand div:nth-child(2) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(2) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(3) {
+  height: 369px;
+  background: url(../img/index/bg_04.jpg) center no-repeat;
+}
+#brand div:nth-child(3) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(3) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(4) {
+  height: 93px;
+  background: url(../img/index/bg_05.jpg) center no-repeat;
+}
+#brand div:nth-child(4) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(4) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(5) {
+  height: 744px;
+  background: url(../img/index/bg_06.jpg) center no-repeat;
+}
+#brand div:nth-child(5) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(5) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(6) {
+  height: 742px;
+  background: url(../img/index/bg_07.jpg) center no-repeat;
+}
+#brand div:nth-child(6) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(6) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(7) {
+  height: 368px;
+  background: url(../img/index/bg_08.jpg) center no-repeat;
+}
+#brand div:nth-child(7) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(7) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(8) {
+  height: 96px;
+  background: url(../img/index/bg_09.jpg) center no-repeat;
+}
+#brand div:nth-child(8) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(8) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(9) {
+  height: 740px;
+  background: url(../img/index/bg_10.jpg) center no-repeat;
+}
+#brand div:nth-child(9) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(9) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(10) {
+  height: 743px;
+  background: url(../img/index/bg_11.jpg) center no-repeat;
+}
+#brand div:nth-child(10) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(10) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(11) {
+  height: 370px;
+  background: url(../img/index/bg_12.jpg) center no-repeat;
+}
+#brand div:nth-child(11) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(11) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(12) {
+  height: 94px;
+  background: url(../img/index/bg_13.jpg) center no-repeat;
+}
+#brand div:nth-child(12) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(12) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(13) {
+  height: 743px;
+  background: url(../img/index/bg_14.jpg) center no-repeat;
+}
+#brand div:nth-child(13) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(13) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(14) {
+  height: 99px;
+  background: url(../img/index/bg_15.jpg) center no-repeat;
+}
+#brand div:nth-child(14) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(14) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(15) {
+  height: 743px;
+  background: url(../img/index/bg_16.jpg) center no-repeat;
+}
+#brand div:nth-child(15) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(15) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(16) {
+  height: 95px;
+  background: url(../img/index/bg_17.jpg) center no-repeat;
+}
+#brand div:nth-child(16) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(16) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(17) {
+  height: 742px;
+  background: url(../img/index/bg_18.jpg) center no-repeat;
+}
+#brand div:nth-child(17) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(17) .brand-box img {
+  float: left;
+}
+#brand div:nth-child(18) {
+  height: 376px;
+  background: url(../img/index/bg_19.jpg) center no-repeat;
+}
+#brand div:nth-child(18) .brand-box {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: inherit;
+}
+#brand div:nth-child(18) .brand-box img {
+  float: left;
+}
+#brand .fix-nav {
+  position: fixed;
+  top: 200px;
+  right: 0;
+}
+#limitBuy {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 500px;
+  background: #ffffff;
+}
+#limitBuy .limitBuy-info {
+  margin: 0 auto;
+  width: 1200px;
+  height: inherit;
+}
+#limitBuy .limitBuy-info h2 {
+  padding: 10px 0;
+  border-bottom: 2px solid #ff8c8f;
+  margin-bottom: 10px;
+}
+#limitBuy .limitBuy-info .limitBuy-main {
+  position: relative;
+  width: inherit;
+  height: 450px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a {
+  width: 287px;
+  height: 400px;
+  float: left;
+  display: inline-block;
+  margin-right: 12px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a:last-child {
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-top {
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-top div {
+  text-align: center;
+  line-height: 38px;
+  color: #999;
+  width: inherit;
+  height: 38px;
+  background: #f8f7f5 url(../img/index/clock.jpg) no-repeat 33px 5px;
+  padding-left: 17px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-top div b {
+  color: #ff1a3a;
+  font-size: 18px;
+  margin: 0 4px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-top img {
+  width: 260px;
+  height: 260px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-top p {
+  font-weight: bold;
+  width: inherit;
+  height: 30px;
+  display: block;
+  padding-left: 20px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-top p span {
+  margin-left: 20px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-bottom {
+  width: inherit;
+  height: 55px;
+  background: url(../img/index/i_03.jpg);
+  font-weight: bold;
+  font-family: microsoft yahei;
+  color: #fff;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-bottom p {
+  padding-left: 14px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .limitBuy-bottom p span {
+  font-size: 36px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .peo p {
+  text-align: right;
+  padding: 10px;
+}
+#limitBuy .limitBuy-info .limitBuy-main a .peo p span {
+  color: #ff1a3a;
+  margin-right: 4px;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+}
+#limitBuy .limitBuy-info .limitBuy-main a:hover {
+  cursor: pointer;
+}
+#limitBuy .limitBuy-info .limitBuy-main a:hover .limitBuy-top {
+  border-color: #ff0000;
+}
+#shop {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#shop .shop-nav {
+  height: 60px;
+  border-top: 1px solid #e4e4e4;
+  background-color: #fefefe;
+}
+#shop .shop-nav ul {
+  height: inherit;
+}
+#shop .shop-nav ul li {
+  height: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  width: 238px;
+  float: left;
+  text-align: center;
+  margin-top: 26px;
+  border-bottom: 2px solid #d0d0d0;
+  border-left: 1px solid #dadada;
+}
+#shop .shop-nav ul li:nth-child(1) {
+  border-left: none;
+}
+#shop .shop-nav ul .sBottom {
+  border-bottom-color: #0094ff;
+}
+#img {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/*common*/
+.infoClass {
+  margin: 0 auto;
+  width: 1200px;
+  height: inherit;
+}

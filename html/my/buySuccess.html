@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单提交成功</title>
+		<link rel="stylesheet" type="text/css" href="/no5/css/common.css"/>
+		<script src="/no5/js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var keys = [];
+			for(var i=0;i<localStorage.length;i++){
+				var key = localStorage.key(i);
+				if(key.indexOf("shop_")!=-1){
+					keys.push(key)
+				}
+			}
+			for(var i=0;i<keys.length;i++){
+				localStorage.removeItem(keys[i]);
+			}
+		</script>
+	</head>
+	<style type="text/css">
+		#main{
+			width: 980px;
+			margin: 30px auto;
+			border: 1px solid #ccc;
+			padding: 20px 0;
+			text-align: center;
+		}
+		#main p{
+			text-align: center;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		#main p span{
+			color: red;
+		}
+	</style>
+	<body>
+		<div id="main">
+			<p>您已经成功提交订单，订单号 <span id="idNum">2455858001</span>，您需要支付 <span id="price">95</span> 元</p>
+			<img src="/no5/img/my/C99.jpg"/>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$("body").prepend("<div id='header'></div>");
+		$("body").append("<div id='footer'></div>");
+		$("#header").load("/no5/html/common/header.html");
+		$("#footer").load("/no5/html/common/footer.html");
+		$.getScript("/no5/js/common.js");
+		
+		var href = location.href;
+		var info = href.split("?")[1].split("&");
+		var idNum = info[0].split("=")[1];
+		var price = info[1].split("=")[1];
+		$("#idNum").html(idNum)
+		$("#price").html(price)
+	</script>
+</html>

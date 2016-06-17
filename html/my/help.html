@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/my/help.css"/>
+		<script src="../../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="help">
+			<div id="side">
+				<dl>
+					<dt><a href="">如何订购</a></dt>
+					<dd><a href="">网上下单</a></dd>
+					<dd><a href="">电话订购</a></dd>
+					<dd><a href="">邮寄订购</a></dd>
+					<dd><a href="">传真订购</a></dd>
+					<dd><a href="">在线客服订购</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">如何送货</a></dt>
+					<dd><a href="">送货上门</a></dd>
+					<dd><a href="">快递</a></dd>
+					<dd><a href="">邮政EMS</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">如何付款</a></dt>
+					<dd><a href="">货到付款</a></dd>
+					<dd><a href="">邮政汇款</a></dd>
+					<dd><a href="">银行汇款</a></dd>
+					<dd><a href="">在线支付</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">订单查询</a></dt>
+					<dd><a href="">订单状态</a></dd>
+					<dd><a href="">查询修改订单</a></dd>
+					<dd><a href="">被视为无效订单</a></dd>
+					<dd><a href="">网上支付未成功</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">会员服务</a></dt>
+					<dd><a href="">N°5会员级别</a></dd>
+					<dd><a href="">N°5购物保障</a></dd>
+					<dd><a href="">N°5贴心服务</a></dd>
+					<dd><a href="">账户积分使用</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">联系我们</a></dt>
+					<dd><a href="">关于N°5</a></dd>
+					<dd><a href="">加入N°5</a></dd>
+					<dd><a href="">团购加盟</a></dd>
+					<dd><a href="">网站加盟</a></dd>
+					<dd><a href="">投诉建议</a></dd>
+				</dl>
+			</div>
+			<div id="main">
+				<img src="../../img/my/customer_service.jpg"/>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$("body").prepend("<div id='header'></div>");
+			$("body").append("<div id='footer'></div>")
+			$("#header").load("http://127.0.0.1:8020/no5/html/common/header.html");
+			$("#footer").load("http://127.0.0.1:8020/no5/html/common/footer.html");
+			$.getScript("http://127.0.0.1:8020/no5/js/common.js");
+		})
+	</script>
+</html>

@@ -1,0 +1,142 @@
+#login{
+    width: 940px;
+    height: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #c6e6f3;
+    .login-left{
+        width: 440px;
+        height: 400px;
+        float: left;
+        h2{
+           .h2(url(../../img/lgoin/regist.png)no-repeat -162px -153px;)
+        }
+        div{
+            .div;
+            p{
+                margin: 10px 0;
+            }
+            
+        }
+        #logBtn{
+            .btn(url(../../img/lgoin/btn-login.png)no-repeat);
+        }
+    }
+    .regist-info{
+        width: 440px;
+        height: 400px;
+        float: right;
+        h2{
+            .h2(url(../../img/lgoin/regist.png)no-repeat -163px -197px);
+        }
+        div{
+            .div;
+            img{
+                display: none;
+            }
+        }
+        .agree{
+            width: 250px;
+            input{
+                width: 18px;
+            }
+            a{
+                color: #0080ff;
+                &:hover{
+                    color: #ff9900;
+                    text-decoration: underline;
+                }
+            }
+        }
+        #regBtn{
+            .btn(url(../../img/lgoin/btn-reg.png)no-repeat);
+        }
+    }
+    .line{
+        float: left;
+        background: url(../../img/lgoin/regist.png)no-repeat -928px -83px;
+        height: 403px;
+        width: 1px;
+        float: left;
+        position: relative;
+        left: 29px;
+    }
+}
+
+//common
+.h2(@url){
+    margin-top: 20px;
+    height: 39px;
+    background: @url;
+}
+.div{
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin: 25px auto;
+    span{
+        display: inline-block;
+        width: 70px;
+        height: 20px;
+        line-height: 20px;
+        float: left;
+        text-align: right;
+    }
+    input{
+        margin-left: 10px;
+        width: 200px;
+        height: 20px;
+        float: left;
+        border:1px solid #7f9db9;
+    }
+    .code{
+        width: 56px;
+    }
+    a{
+        color: #0080ff;
+        &:hover{
+            color: #ff9900;
+            text-decoration: underline;
+        }
+    }
+    div{
+        display: none;
+        width: 400px;
+        position: absolute;
+        top: 0;
+        left: 80px;
+    }
+    #code{
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 14px;
+        background-color: #ccc;
+        margin-left: 10px;
+    }
+    #logCode{
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 14px;
+        background-color: #ccc;
+        margin-left: 10px;
+        margin-top: 1px;
+    }
+    .f{
+        position: relative;
+        top: -17px;
+        left: 59px;
+    }
+}
+.btn(@url){
+    width: 90px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    background: @url;
+}

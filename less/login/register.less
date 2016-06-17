@@ -1,0 +1,100 @@
+#regist{
+    width: 958px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #c6e6f3;
+    .regist-info{
+        width: 625px;
+        margin: 0 auto;
+        h2{
+            margin-top: 50px;
+            height: 39px;
+            background: url(../../img/lgoin/regist.png)no-repeat -159px -74px;
+        }
+        div{
+            position: relative;
+            width: 300px;
+            height: 30px;
+            margin: 35px auto;
+            img{
+                display: none;
+            }
+            span{
+                display: inline-block;
+                width: 70px;
+                height: 20px;
+                line-height: 20px;
+                float: left;
+                text-align: right;
+            }
+            input{
+                margin-left: 10px;
+                width: 200px;
+                height: 20px;
+                float: left;
+                border:1px solid #7f9db9;
+            }
+            .code{
+                width: 56px;
+            }
+            a{
+                color: #0080ff;
+                &:hover{
+                    color: #ff9900;
+                    text-decoration: underline;
+                }
+            }
+            div{
+                display: none;
+                width: 400px;
+                position: absolute;
+                top: 0;
+                left: 80px;
+            }
+            #code{
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                font-size: 14px;
+                background-color: #ccc;
+                margin-left: 10px;
+            }
+            .f{
+                position: relative;
+                top: -17px;
+                left: 59px;
+            }
+        }
+        .agree{
+            width: 250px;
+            input{
+                width: 18px;
+            }
+            a{
+                color: #0080ff;
+                &:hover{
+                    color: #ff9900;
+                    text-decoration: underline;
+                }
+            }
+        }
+        #regBtn{
+            width: 90px;
+            height: 30px;
+            display: block;
+            margin: 0 auto;
+            background: url(../../img/lgoin/btn-reg.png)no-repeat;
+        }
+    }
+}
+
+
+/*common*/
+.border-radius(@num:5px){
+    border-radius: @num;
+    -webkit-border-radius: @num;
+    -moz-border-radius: @num;
+}

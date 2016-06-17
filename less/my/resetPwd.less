@@ -1,0 +1,94 @@
+#myAccount {
+    width: 980px;
+    height: 560px;
+    margin: 10px auto;
+    #side {
+        float: left;
+        width: 160px;
+        h2 {
+            height: 38px;
+            background: url("/no5/img/lgoin/regist.png");
+        }
+        div {
+            width: 138px;
+            padding: 7px;
+            position: relative;
+            left: 4px;
+            border: 1px solid #d0d0d0;
+            border-bottom-left-radius: 15px;
+            dl{
+                &:nth-child(2) dd:nth-child(4) a{
+                    color: red;
+                }
+                dt {
+                    margin-top: 10px;
+                    width: 125px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    background-color: #fdf3d5;
+                    border: 1px solid #fad29c;
+                    padding-left: 10px;
+                }
+                dd {
+                    margin-left: 20px;
+                    margin-top: 13px;
+                    padding-left: 10px;
+                    background: url("/no5/img/my/acc-nav-ico.png") no-repeat;
+                }
+            } 
+        }
+    }
+    /*修改密码*/
+    .main {
+        float: right;
+        width: 810px;
+        height: 520px;
+        margin-top: 10px;
+        h2 {
+            height: 35px;
+            line-height: 35px;
+            font-weight: normal;
+            background: url("/no5/img/lgoin/regist.png") no-repeat right top;
+            text-align: center;
+        }
+        .bottom {
+            height: 34px;
+            background: url("/no5/img/lgoin/regist.png") no-repeat right -35px;
+        }
+        #main-info{
+            min-height: 450px;
+            .changePwd{
+                .pwd{
+                    padding-left: 180px;
+                    div{
+                        margin: 30px 0;
+                        &:nth-child(4){
+                            margin-left: -48px;
+                        }
+                    }
+                }
+                .change{
+                    width: 100px;
+                    margin:  0 auto;
+                }
+                span{
+                    margin-left: 10px;
+                    color: red;
+                }
+            }
+            .changeSuccess{
+                display: none;
+                width: 770px;
+                height: 78px;
+                background-color: #e8ffe8;
+                border: 1px solid #008b8b;
+                text-align: center;
+                line-height: 78px;
+                margin: 10px auto;
+            }
+        }
+    }
+}
+

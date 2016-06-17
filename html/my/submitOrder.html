@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="/no5/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/no5/css/my/submitOrder.css"/>
+		<script src="/no5/js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/no5/js/my/submitOrder/Area.js" type="text/javascript"></script>
+		<script src="/no5/js/my/submitOrder/AreaData_min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="main">
+			<h2></h2>
+			<div class="main-info">
+				<h3>收货人信息</h3>
+				<div>
+					姓&nbsp;&nbsp;名：<input type="text" id="useName"/><span></span><br /><br />
+					手&nbsp;&nbsp;机：<input type="text" id="phone"/><span></span><br /><br />
+					电子邮件：<input type="text" id="email"/><span></span><br /><br />
+					地&nbsp;&nbsp;区：
+					<select id="seachprov" name="seachprov" onChange="changeComplexProvince(this.value, sub_array, 'seachcity', 'seachdistrict');"></select>
+					<select id="seachcity" name="homecity" onChange="changeCity(this.value,'seachdistrict','seachdistrict');"></select>
+					<span id="seachdistrict_div"><select id="seachdistrict" name="seachdistrict"></select></span><br /><br />
+					详细地址：<input type="text" id="address"/><span></span><br /><br />
+					邮&nbsp;&nbsp;编：<input type="text" id="postcode"/><span></span><br /><br />
+				</div>
+				<div class="save"><a>保存收货人地址</a></div>
+				<div class="orderInfo">
+					<input type="checkbox" name="" id="orderInfomation" value="" />
+					<a href="">订货人信息 (非本人收货请勾选此项,当订单出现异常时,我们会优先与您联系)</a>
+					<div class="orderInfomation">
+						<div class="orderInfo">
+							姓名：<input type="text" />
+							电话：<input type="text" />
+							邮箱：<input type="text" />
+							<button>保存</button>
+						</div>
+					</div>
+				</div>
+				<h3>选择配送方式及付款方式</h3>
+				<div class="payWay">
+					<div class="chooseAddress">
+						<h3>送货方式</h3>
+						<div>
+							<p><input type="radio" name="address" id="" value="" /><span>送货上门</span>点击查看<a href="">全国1875个支持货到付款城市</a></p>
+							发货后2-5个工作日送达；每单收取18元配送费。温馨提示
+						</div>
+						<div>
+							<p><input type="radio" name="address" id="" value="" /><span>快递</span>(不支持货到付款)一般采用中通速递,<a href="">全国1875个支持货到付款城市</a></p>
+							发货后2-5个工作日送达；80元以内每单收取5元配送费，80元(含)以上免费。
+						</div>
+						<div>
+							<p><input type="radio" name="address" id="" value="" /><span>送邮政EMS</span>(不支持货到付款)</a></p>
+							发货后1-3个工作日送达；每单收取10元配送费。
+						</div>
+					</div>
+					<div class="choosePayWay">
+						<h3>付款方式</h3>
+						<p>在线支付<a href="">帮助>></a></p>
+						<ul class="bank">
+							<li><input type="radio" name="bank" id="" value="" />中国工商银行</li>
+							<li><input type="radio" name="bank" id="" value="" />招商银行</li>
+							<li><input type="radio" name="bank" id="" value="" />建设银行</li>
+							<li><input type="radio" name="bank" id="" value="" />中国农业银行</li>
+							<li><input type="radio" name="bank" id="" value="" />中国银行</li>
+							<li><input type="radio" name="bank" id="" value="" />中国民生银行</li>
+							<li><input type="radio" name="bank" id="" value="" />交通银行</li>
+							<li><input type="radio" name="bank" id="" value="" />兴业银行</li>
+							<li><input type="radio" name="bank" id="" value="" />上海浦东发展银行</li>
+							<li><input type="radio" name="bank" id="" value="" />支付宝</li>
+							<li><input type="radio" name="bank" id="" value="" />财付通</li>
+						</ul>
+						<ul>
+							<li><input type="radio" name="bank" id="" value="" />银行汇款</li>
+							<li><input type="radio" name="bank" id="" value="" />邮政汇款</li>
+						</ul>
+					</div>
+				</div>
+				<h3>购物车信息<a href="/no5/html/my/shoppingCar.html" style="color: #0000ff;">[修改购物车]</a></h3>
+				<div class="buyCar">
+					<div class="buyCar-top">
+						<ul>
+							<li>商品名称</li>
+							<li>规格</li>
+							<li>一般价</li>
+							<li>No5价</li>
+							<li>数量</li>
+							<li>付款小计</li>
+						</ul>
+					</div>
+					<div class="buyCar-main"></div>
+					<div class="buyCar-total">商品金额合计：<span>0</span></div>
+				</div>
+				<div class="main-bottom">
+					<span>给客服的留言(100个字以内)：</span>
+					<textarea name="" rows="100" cols="200"></textarea>
+					<a id="subOrder"><img src="/no5/img/my/create_oder.gif"/></a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="/no5/js/my/submitOrder/submitOrder.js" type="text/javascript" charset="utf-8"></script>
+</html>

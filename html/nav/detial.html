@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="/no5/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/no5/css/nav/detial.css"/>
+		<script src="/no5/js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="main">
+			<h2>首页&nbsp;>&nbsp;身体护理&nbsp;>&nbsp;L’Occitane 欧舒丹&nbsp;>&nbsp;L’Occitane欧舒丹玫瑰味沐浴啫喱/沐浴露(05956) 本周特价! 75ml</h2>
+			<div id="main-content">
+				<div id="content">
+					<div id="content-left">
+						<div id="small">
+							<ul>
+								<li><img src="/no5/img/nav/detail/1.jpg"/></li>
+								<li><img src="/no5/img/nav/detail/2.jpg"/></li>
+								<li><img src="/no5/img/nav/detail/3.jpg"/></li>
+							</ul>
+						</div>
+						<div id="middle">
+							<div id="glass"></div>
+							<img src="/no5/img/nav/detail/001.jpg"/>
+						</div>
+					</div>
+					<div id="content-right">
+						<img src="/no5/img/nav/detail/01.jpg"/>
+					</div>
+					<div class="connect">分享到:<a href=""></a></div>
+				</div>
+				<div id="shoppingInfo">
+					<h3>L’Occitane欧舒丹玫瑰味沐浴啫喱/沐浴露(05956) 本周特价! 75ml</h3>
+					<ul>
+						<li>英文名称：L’Occitane Roses Bath & Shower Gel</li>
+						<li>商品编号：23893</li>
+						<li>No5   价：￥43.00市场价： ￥51.00折扣： 8.4折</li>
+						<li>特    价：￥<span>36.00</span> (不返积分)</li>
+						<li>所属品牌：<a>L’Occitane 欧舒丹</a> → <a>玫瑰系列</a></li>
+						<li>所属分类：<a href="">身体护理</a>→<a href="">洁肤沐浴 </a>→<a href=""> 沐浴露</a></li>
+						<li>用户评分：<img src="" alt="" /><a href="">已有28条评论</a></li>
+						<li>运费说明：<span>购物满80元免费快递</span><a href="">查看运费详情</a></li>
+						<li>消费保障：品质承诺 货到付款 不满意退货 可靠包装</li>
+					</ul>
+					<div>
+						我要买：<input type="text" value="1"/><a class="addBuy"></a><a></a>
+					</div>
+				</div>
+			</div>
+			<div id="info">
+				<div id="info-left">
+					<img src="/no5/img/nav/detail/a1.jpg"/>
+					<img src="/no5/img/nav/detail/a2.jpg"/>
+					<img src="/no5/img/nav/detail/a3.jpg"/>
+					<img src="/no5/img/nav/detail/a4.jpg"/>
+				</div>
+				<div id="info-right">
+					<h2><img src="/no5/img/nav/detail/a5.jpg"/></h2>
+					<div class="info-nav">
+						<a class="bg">商品详情</a>
+						<a>购买评论</a>
+						<a>商品咨询</a>
+						<a>购买须知</a>
+					</div>
+					<div class="info-content">
+						<div class="show">
+							<img src="/no5/img/nav/detail/b1_1.jpg" alt="" />
+							<img src="/no5/img/nav/detail/b1_2.jpg" alt="" />
+							<img src="/no5/img/nav/detail/b1_3.jpg" alt="" />
+							<img src="/no5/img/nav/detail/b1_4.jpg" alt="" />
+							<img src="/no5/img/nav/detail/b1_5.jpg" alt="" />
+							<img src="/no5/img/nav/detail/b1_6.jpg" alt="" />
+						</div>
+						<div><img src="/no5/img/nav/detail/b2.jpg" alt="" /></div>
+						<div><img src="/no5/img/nav/detail/b3.jpg" alt="" /></div>
+						<div><img src="/no5/img/nav/detail/b4.jpg" alt="" /></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="/no5/js/nav/detial.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".info-nav a").each(function(i){
+			$(this).click(function(){
+				$(this).addClass("bg").siblings().removeClass("bg");
+				$(".info-content").find("div").eq(i).addClass("show").siblings().removeClass("show")
+			})
+		})
+		
+		$(".addBuy").click(function(){
+			
+		})
+	</script>
+</html>

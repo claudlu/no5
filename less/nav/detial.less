@@ -1,0 +1,201 @@
+#main{
+    width: 980px;
+    overflow: hidden;
+    margin: 30px auto;
+    h2{
+        overflow: hidden;
+        height: 20px ;
+        font-size: 12px;
+        font-weight: normal;
+        border-bottom: 2px solid #78b5f4;
+    }
+    #main-content{
+        overflow: hidden;
+        padding: 15px 0;
+        #content{
+            position: relative;
+            float: left;
+            width: 470px;
+            height: 440px;
+            #content-left{
+                #small{
+                    float: left;
+                    ul{
+                        li{
+                            margin-bottom: 10px;
+                            img{
+                                border: 1px solid #e4e4e4;
+                                width: 72px;
+                                height: 72px;
+                            }
+                        }
+                    }
+                }
+                #middle{
+                    position: relative;
+                    float: left;
+                    left: 15px;
+                    img{
+                        width: 350px;
+                        height: 350px;
+                    }
+                    #glass{
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        background-color: pink;
+                        top: 0;
+                        opacity: 0.5;
+                        z-index: 1;
+                        display: none;
+                    }
+                }
+            }
+            #content-right{
+                display: none;
+                position: absolute;
+                img{
+                    position: absolute;
+                }
+                left: 487px;
+                background-color: red;
+                border: 1px solid #C5C5C5;
+                width: 400px;
+                height: 400px;
+                overflow: hidden;
+                z-index: 20;
+            }
+            .connect{
+                width: 250px;
+                height: 26px;
+                margin-left: 200px;
+                float: left;
+                a{
+                    position: relative;
+                    top: 11px;
+                    left: 10px;
+                    display: inline-block;
+                    width: 200px;
+                    height: 26px;
+                    background: url(../../img/nav/detail/icon_site.gif)no-repeat;
+                }
+            }
+        }
+        #shoppingInfo{
+            float: right;
+            h3{
+                height: 30px;
+                font-size: 14px;
+                border-bottom: 1px dashed #e4e4e4;
+            }
+            ul{
+                li{
+                    a{
+                        color: #4063a7;
+                    }
+                    margin: 15px 0;
+                    &:nth-child(4){
+                        color:red;
+                        span{
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        border-bottom: 1px dashed #e4e4e4;
+                        padding-bottom:10px
+                    }
+                    &:nth-child(8){
+                        span{
+                            color: red;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+            div{
+                width: 470px;
+                height: 74px;
+                line-height: 74px;
+                border: 1px solid #f5debc;
+                background-color: #fffcf3;
+                padding-left: 30px;
+                input{
+                    width: 20px;
+                    margin: 0 10px;
+                }
+                a{
+                    position: relative;
+                    display: inline-block;
+                    height: 40px;
+                    width: 140px;
+                    margin: 0 5px;
+                    top: 16px;
+                    left: 5px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    &:nth-child(2){
+                        background: url(/no5/img/nav/detail/btnGroup.gif)no-repeat;
+                    }
+                    &:nth-child(3){
+                        background: url(/no5/img/nav/detail/btnGroup.gif)no-repeat 0 -42px;
+                    }
+                }
+                
+            }
+        }
+    }
+    #info{
+        overflow: hidden;
+        #info-left{
+            width: 200px;
+            margin: 10px 0;
+            float: left;
+            display: inline-block;
+            border-top: 1px solid #e4e4e4;
+        }
+        #info-right{
+            float: right;
+            width: 765px;
+            overflow: hidden;
+            h2{
+                overflow: hidden;
+                height: 260px;
+                border: none;
+                position: relative;
+                top: 9px;
+            }
+            .info-nav{
+                height: 30px;
+                margin: 10px 0;
+                a{
+                    display: inline-block;
+                    height: 35px;
+                    width: 140px;
+                    line-height: 35px;
+                    text-align: center;
+                    border: 1px solid #e4e4e4;
+                    background-color: #f9f9f9;
+                    &:hover{
+                         border: 1px solid #048fb0;
+                         color: #fff;
+                         background-color: #00abdc;
+                         cursor: pointer;
+                    }
+                }
+                .bg{
+                    border: 1px solid #048fb0;
+                    color: #fff;
+                    background-color: #00abdc;
+                }
+            }
+            .info-content{
+                div{
+                    display: none;
+                }
+                .show{
+                    display: block;
+                }
+            }
+        }
+    }
+}
